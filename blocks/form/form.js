@@ -1,4 +1,5 @@
 import { addInViewAnimationToSingleElement } from '../../utils/helpers.js';
+import { readBlockConfig, decorateIcons } from '../../scripts/lib-franklin.js';
 
 function createSelect(fd) {
   const select = document.createElement('select');
