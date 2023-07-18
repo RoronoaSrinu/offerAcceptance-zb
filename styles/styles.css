@@ -174,10 +174,10 @@ main input {
   max-width: 50rem;
   display: block;
   margin-bottom: 1rem;
-  padding: 0.75rem 0.6rem;
+  /*padding: 0.75rem 0.6rem;
   border-radius: 0.25rem;
   box-sizing: border-box;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-color);*/
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -205,8 +205,11 @@ main blockquote p::after {
 
 main img {
   max-width: 100%;
-  width: auto;
+  /*width: auto;
+  height: auto;*/
+  width: 350px;
   height: auto;
+  padding-left: 160px;
 }
 
 .icon {
@@ -240,4 +243,12 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+/*form[data-action]{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}*/
+#lets-get-started{
+  padding-left:156px;
 }
