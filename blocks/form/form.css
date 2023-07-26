@@ -249,6 +249,6 @@ main form .form-fieldset-wrapper {
 
   main .form form .form-fieldset-wrapper {
       flex-flow: row wrap;
-      gap: 10px 15px;
+      gap: 10px 40px;
   }
 }
