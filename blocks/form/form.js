@@ -37,7 +37,7 @@ async function prepareRequest(form) {
   return { headers, body, url };
 }
 
-async function submitForm(form,fd) {
+async function submitForm(form) {
   try {
     const { headers, body, url } = await prepareRequest(form);
     const response = await fetch(url, {
