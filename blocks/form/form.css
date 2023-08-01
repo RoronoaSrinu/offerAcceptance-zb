@@ -73,6 +73,9 @@ main .form form fieldset {
 
 main .form form fieldset fieldset {
   padding: 0;
+  display: flex !important;
+  column-gap: 5% !important;
+  flex-wrap: wrap !important;
 }
 
 main .form .field-description {
