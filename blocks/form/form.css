@@ -253,5 +253,5 @@ main form .form-fieldset-wrapper {
   }
 }
 .form-mobileConsent{
-  flex:100%;
+  flex:100% !important;
 }
