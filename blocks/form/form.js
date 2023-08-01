@@ -47,8 +47,8 @@ async function submitForm(form,fd) {
     });
     if (response.ok) {
       sampleRUM('form:submit');
-      //window.location.href = form.dataset?.redirect || 'thankyou';
-      window.location.href = fd.Extra !==null ? fd.Extra : 'thankyou';
+      window.location.href = form.dataset?.redirect || 'thankyou';
+      //window.location.href = fd.Extra !==null ? fd.Extra : 'thankyou';
     } else {
       const error = await response.text();
       throw new Error(error);
@@ -138,9 +138,9 @@ function createButton(fd) {
   button.id = fd.Id;
   button.name = fd.Name;
   wrapper.replaceChildren(button);
- /* button.onclick = () => {
+ button.onclick = () => {
     window.location.href = fd.Extra;
-  };*/
+  };
   return wrapper;
 }
 function createSubmit(fd) {
