@@ -252,3 +252,6 @@ main form .form-fieldset-wrapper {
       gap: 10px 40px;
   }
 }
+.form-mobileConsent{
+  flex:100%;
+}
