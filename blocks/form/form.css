@@ -269,7 +269,7 @@ main img {
   height: auto;
   padding-left:0px;
 }
-#form .offeracceptance .block{
+#form offeracceptance block{
 position: relative;
     bottom: 20px;
     right: 102px;
