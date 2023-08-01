@@ -255,3 +255,6 @@ main form .form-fieldset-wrapper {
 .form-mobileConsent{
   flex:100% !important;
 }
+.lets-get-started{
+  padding-left:0px !important;
+}
