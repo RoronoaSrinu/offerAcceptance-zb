@@ -138,9 +138,9 @@ function createButton(fd) {
   button.id = fd.Id;
   button.name = fd.Name;
   wrapper.replaceChildren(button);
- button.onclick = () => {
+ /*button.onclick = () => {
     window.location.href = fd.Extra;
-  };
+  };*/
   return wrapper;
 }
 function createSubmit(fd) {
